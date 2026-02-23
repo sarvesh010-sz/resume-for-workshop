@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sarvesh | Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            background: #ffffff;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .left {
+            background: #1e293b;
+            color: white;
+            padding: 30px 20px;
+        }
+
+        .right {
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin: 20px 0 10px;
+            border-bottom: 2px solid #1e293b;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .left h2 {
+            border-bottom: 2px solid #ffffff;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .contact p {
+            font-size: 13px;
+        }
+
+        .skill-bar {
+            background: #334155;
+            height: 6px;
+            border-radius: 5px;
+            margin: 5px 0 10px;
+        }
+
+        .skill-level {
+            height: 6px;
+            background: #38bdf8;
+            border-radius: 5px;
+        }
+
+        .education, .project {
+            margin-bottom: 15px;
+        }
+
+        .bold {
+            font-weight: 600;
+        }
+
+        @media(max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .left {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    
+    <div class="left">
+        <h1>Sarvesh</h1>
+        <p>Fresher | Computer Science Student</p>
+
+        <h2>Contact</h2>
+        <div class="contact">
+            <p>Email: csarvesh010@gmail.com</p>
+            <p>Phone: +91 8919256327</p>
+            <p>Location: India</p>
+            <p>LinkedIn: linkedin.com/in/sarvesh</p>
+        </div>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+
+            <li>JavaScript</li>
+            <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+
+            <li>Python</li>
+            <div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div>
+
+            <li>Java</li>
+            <div class="skill-bar"><div class="skill-level" style="width: 65%"></div></div>
+        </ul>
+
+        <h2>Languages</h2>
+        <ul>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Telugu</li>
+            <li>Kannada</li>
+            <li>Marthi</li>
+        </ul>
+
+    </div>
+
+    
+    <div class="right">
+
+        <h2>Profile</h2>
+        <p>
+            Motivated and detail-oriented Computer Science graduate seeking an entry-level position 
+            to apply programming skills and contribute to innovative projects. 
+            Strong foundation in web development and problem-solving.
+        </p>
+
+        <h2>Education</h2>
+        <div class="education">
+            <p class="bold">Bachelor of Technology (B.Tech) in Computer Science</p>
+            <p>smsk | 2023– 2027</p>
+            <p>CGPA: 7.5/10</p>
+        </div>
+
+        <h2>Projects</h2>
+        <div class="project">
+            <p class="bold">Personal Portfolio Website</p>
+            <p>Developed a responsive personal portfolio using HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="project">
+            <p class="bold">Student Management System</p>
+            <p>Built a CRUD-based application using Python and MySQL to manage student records.</p>
+        </div>
+
+        <h2>Certifications</h2>
+        <ul>
+            <li>java full stack developer</li>
+            <li>Python Programming Course</li>
+        </ul>
+
+    </div>
+
+</div>
+
+</body>
+</html>
